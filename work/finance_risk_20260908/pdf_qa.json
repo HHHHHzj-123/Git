@@ -1,0 +1,57 @@
+{
+  "pages": 42,
+  "metadata": {
+    "/Title": "会计职业风险实战手册",
+    "/Creator": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0",
+    "/Producer": "Skia/PDF m152",
+    "/CreationDate": "D:20260908120403+00'00'",
+    "/ModDate": "D:20260908120403+00'00'"
+  },
+  "outline_count": 117,
+  "first_outlines": [
+    "会计职业风险实战手册",
+    "目录",
+    "重点专题入口",
+    "1. 先回答：会计是不是特别容易“背锅”？",
+    "1.1 给你的判断",
+    "1.2 五种后果不要混为一谈",
+    "1.3 工资低是否意味着风险一定不值得承担",
+    "1.4 本资料范围与阅读顺序",
+    "2. 两条轴看风险：行动等级与法律责任",
+    "2.1 四色行动等级（本知识库自定义）",
+    "2.2 认定个人责任要问六件事",
+    "2.3 四个常见误区",
+    "2.4 三种“财务负责人”不要混淆",
+    "3. 必须守住的底线与可接受的专业判断",
+    "3.1 不把不存在的事做成存在",
+    "3.2 不把公司钱当个人资金池",
+    "3.3 不通过删除、倒签、串供来“修复”问题",
+    "3.4 不签无法合理支持的证明",
+    "3.5 哪些事情并不是天然违法",
+    "4. 26个高频场景：从单据到月结"
+  ],
+  "links": 191,
+  "extracted_chars": 25772,
+  "blank_text_pages": [],
+  "all_a4_same": true,
+  "page_size": [
+    594.96,
+    841.92
+  ],
+  "search_terms": {
+    "目录": 2,
+    "R05": 5,
+    "虚开增值税专用发票": 4,
+    "R06": 3,
+    "补救SOP": 3,
+    "C01": 5,
+    "S20": 3
+  },
+  "rendered_pngs": 42,
+  "contacts": [
+    "C:\\Users\\HZJ\\Desktop\\Git\\work\\finance_risk_20260908\\tmp\\pdfs\\contacts-v11\\contact-01-12.png",
+    "C:\\Users\\HZJ\\Desktop\\Git\\work\\finance_risk_20260908\\tmp\\pdfs\\contacts-v11\\contact-13-24.png",
+    "C:\\Users\\HZJ\\Desktop\\Git\\work\\finance_risk_20260908\\tmp\\pdfs\\contacts-v11\\contact-25-36.png",
+    "C:\\Users\\HZJ\\Desktop\\Git\\work\\finance_risk_20260908\\tmp\\pdfs\\contacts-v11\\contact-37-42.png"
+  ]
+}

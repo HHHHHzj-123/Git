@@ -1,0 +1,37 @@
+link: []
+path: ./work/douyin_ep26_28_downloads/
+video: true
+music: false
+cover: false
+avatar: false
+json: true
+folderstyle: false
+filename_template: "{id}"
+mode:
+  - post
+number:
+  post: 0
+  like: 0
+  mix: 0
+  music: 0
+  collect: 0
+  collectmix: 0
+thread: 2
+retry_times: 2
+proxy: ""
+database: false
+video_quality: lowest
+progress:
+  quiet_logs: false
+browser_fallback:
+  enabled: false
+transcript:
+  enabled: false
+comments:
+  enabled: false
+cookies:
+  msToken: ""
+  ttwid: ""
+  odin_tt: ""
+  passport_csrf_token: ""
+  sid_guard: ""

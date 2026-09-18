@@ -1,0 +1,103 @@
+# ==========================================================
+# 这个仓库的取舍原则
+#
+#   只保存「重新做一遍很费劲」的东西：
+#     手册、工具包、脚本、说明文档、工作记录
+#
+#   不保存「能重新下载」或「能重新生成」的东西：
+#     模型、第三方包、虚拟环境、缓存、音视频原素材、
+#     渲染中间产物、网页快照
+#
+#   —— 这些东西占了这个文件夹 2.8 GB 里的绝大部分，
+#      删掉不影响任何成果，但能让仓库保持在合理大小。
+# ==========================================================
+
+# ---------- 本轮不打算同步的文件夹 ----------
+video_extract_temp/
+Claude code（DeepSeek）/
+
+# ---------- 能重新下载的模型和第三方包 ----------
+work/whisper_models/
+work/stt_pkg/
+work/stt_pkg_accessible/
+work/douyin_downloader_pkg/
+work/yt_dlp_pkg/
+work/Douyin_TikTok_Download_API/
+work/dyvenv/
+**/site-packages/
+**/*.dist-info/
+
+# ---------- 能自动重新生成的缓存 / 依赖目录 ----------
+**/__pycache__/
+*.pyc
+*.pyo
+**/node_modules/
+**/.venv/
+**/venv/
+**/.next/
+**/.cache/
+
+# ---------- 渲染 / 导出中间产物 ----------
+work/render*/
+work/lo_profile*/
+work/frames_*/
+work/subtitles_*/
+**/qa/
+**/docx-render/
+**/docx_render/
+
+# ---------- 音视频原素材 ----------
+*.mp4
+*.m4a
+*.mp3
+*.wav
+*.mov
+*.avi
+*.mkv
+*.webm
+*.flac
+
+# ---------- 图片（多数是把文档渲染成一张张图，原文档里已含图）----------
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.bmp
+*.tiff
+
+# ---------- 压缩包 / 可执行文件 / 模型权重 ----------
+*.zip
+*.rar
+*.7z
+*.tar
+*.tgz
+*.gz
+*.exe
+*.dll
+*.pyd
+*.so
+*.dylib
+*.bin
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.msi
+*.iso
+
+# ---------- 抓下来的网页快照（只在 work 顶层，不影响成果里的 html）----------
+work/*.html
+
+# ---------- 从 xlsx 生成的检查记录（可由原文件重新生成，占 36 MB）----------
+*.inspect.ndjson
+
+# ---------- WorkBuddyVersions 自带的本地仓库（见操作记录）----------
+WorkBuddyVersions/.git-local-backup/
+
+# ---------- 杂项 ----------
+*.tmp
+*.log
+Thumbs.db
+desktop.ini
+.DS_Store

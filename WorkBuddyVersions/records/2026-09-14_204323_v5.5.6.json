@@ -1,0 +1,102 @@
+{
+  "schema": 1,
+  "snapshot_time": "2026-09-14T20:43:23.686757+08:00",
+  "app_version": {
+    "app_version": "5.5.6",
+    "manifest_version_scheme": "1",
+    "install_generated_at": "2026-09-10T10:41:35.786Z",
+    "installed_file_count": 113,
+    "renderer_version": "5.5.6"
+  },
+  "binary": {
+    "exists": true,
+    "size_bytes": 204585000,
+    "size_mb": 195.11,
+    "mtime": "2026-09-10T18:47:52+08:00",
+    "sha256": "236e2ca0e6aa12331d13f08c16c82dc5c74ef9c64cecb5f2bd6614f36640ad6d"
+  },
+  "cli": {
+    "$schema": "product-schema.json",
+    "productName": "WorkBuddy",
+    "productConfigPathEnv": "ACC_PRODUCT_CONFIG_PATH",
+    "platform": "CLI",
+    "endpoint": "https://copilot.tencent.com",
+    "stagingEndpoint": "https://staging-copilot.tencent.com",
+    "requestMaxStepLimit": 100,
+    "deploymentType": "SaaS",
+    "applicationName": "WorkBuddy",
+    "dataFolderName": ".workbuddy",
+    "darwinBundleIdentifier": "com.tencent.workbuddy.mac",
+    "win32x64AppId": "{61A882F2-969F-45BF-A652-FA5C6B03DE22}",
+    "win32arm64AppId": "{E5979B74-105C-46B5-AED6-599C029B689D}",
+    "win32x64UserAppId": "{BFD312E9-1019-4F57-9F44-F86246833B50}",
+    "win32arm64UserAppId": "{B7353D0F-D01C-4EC3-96A9-5CEA88358454}",
+    "win32MutexName": "workbuddy",
+    "win32AppUserModelId": "WorkBuddy.WorkBuddy",
+    "commit": "5f9692923c93033111c51ad7b003eb80204a9b75",
+    "date": "2026-09-10T10:36:20.308Z",
+    "genieVersion": "5.5.6"
+  },
+  "runtime": {
+    "os": "Windows",
+    "os_release": "11",
+    "os_version": "10.0.26200",
+    "machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+    "python_version": "3.13.14",
+    "snapshot_time": "2026-09-14T20:43:23.931895+08:00",
+    "snapshot_host_user": "HZJ",
+    "node_version": "v22.22.2"
+  },
+  "config": {
+    "disableAgentTeams": false,
+    "personalization": {
+      "toneStyle": "straightforward",
+      "customPrompt": ""
+    },
+    "locale": "zh-CN"
+  },
+  "sessions": {
+    "count": 7,
+    "sessions": [
+      "2026-09-09-14-04-56",
+      "2026-09-09-14-16-01",
+      "2026-09-09-14-37-16",
+      "2026-09-09-14-46-56",
+      "2026-09-13-16-19-10",
+      "2026-09-14-14-42-27",
+      "Claw"
+    ]
+  },
+  "audit_log": {
+    "segment_count": 7,
+    "segments": [
+      {
+        "segment": "2026-09-09.jsonl",
+        "size_bytes": 74541,
+        "entries": 56
+      },
+      {
+        "segment": "2026-09-10.jsonl",
+        "size_bytes": 8294,
+        "entries": 6
+      },
+      {
+        "segment": "2026-09-13.jsonl",
+        "size_bytes": 142945,
+        "entries": 100
+      },
+      {
+        "segment": "2026-09-14.jsonl",
+        "size_bytes": 9184,
+        "entries": 9
+      },
+      {
+        "segment": "manifest.jsonl",
+        "size_bytes": 1005,
+        "entries": 3
+      }
+    ]
+  },
+  "fingerprint": "4041382d97a5e203"
+}
