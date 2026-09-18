@@ -1,0 +1,72 @@
+{
+  "theme": "dark",
+  "permissions": {
+    "defaultMode": "acceptEdits",
+    "additionalDirectories": [
+      "C:\\Users\\HZJ",
+      "D:\\"
+    ],
+    "allow": [
+      "Read(//c/**)",
+      "Read(//d/**)",
+
+      "WebFetch",
+      "WebSearch",
+
+      "Bash(ls *)",
+      "Bash(cd *)",
+      "Bash(pwd)",
+      "Bash(cat *)",
+      "Bash(head *)",
+      "Bash(tail *)",
+      "Bash(wc *)",
+      "Bash(grep *)",
+      "Bash(rg *)",
+      "Bash(find *)",
+      "Bash(which *)",
+      "Bash(where *)",
+      "Bash(echo *)",
+      "Bash(jq *)",
+      "Bash(sed *)",
+      "Bash(awk *)",
+      "Bash(sort *)",
+      "Bash(diff *)",
+      "Bash(file *)",
+      "Bash(tree *)",
+      "Bash(env)",
+      "Bash(date *)",
+      "Bash(mkdir *)",
+      "Bash(touch *)",
+      "Bash(cp *)",
+
+      "Bash(git status*)",
+      "Bash(git diff*)",
+      "Bash(git log*)",
+      "Bash(git show*)",
+      "Bash(git branch*)",
+      "Bash(git add*)",
+      "Bash(git commit*)",
+      "Bash(git fetch*)",
+      "Bash(git pull*)",
+      "Bash(git init*)",
+      "Bash(git remote -v)",
+
+      "Bash(node *)",
+      "Bash(npm *)",
+      "Bash(npx *)",
+      "Bash(pnpm *)",
+      "Bash(yarn *)",
+      "Bash(python *)",
+      "Bash(python3 *)",
+      "Bash(pip *)",
+      "Bash(pip3 *)",
+      "Bash(uv *)",
+      "Bash(gh *)",
+      "Bash(curl *)",
+      "Bash(code *)",
+      "Bash(start *)",
+      "Bash(explorer *)",
+      "Bash(tasklist *)"
+    ]
+  }
+}
